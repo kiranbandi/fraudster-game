@@ -26,38 +26,53 @@
 <body>
     <!-- Game Container -->
     <div id="game-home" class="container-fluid">
-
-     <div class="row">
-        <div class='pull-right'>
-        <span>Remaining Time : <span id ='time-tracker'> 5 mins </span></span>
-        <span>Account Balance : <span id='balance-tracker'> $100 </span></span>    
-        </div>
-     </div>
         <div class="row">
-            <div id='shop-selection-panel' class="col-md-6">
+            <div class='pull-right'>
+                <span class='label label-primary'>Remaining Time : <span id ='time-tracker'>0:00</span></span>
+                <span class='label label-success'>Account Balance : <span id='balance-tracker'> $100 </span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div id='shop-selection-panel' class="col-md-12">
+                <h2 class="text-center">ARENA</h2>
                 <div class='radio'>
-                    <input type='radio' id='shop1' name='shop' value="shop1">
-                    <label for='shop1'>Shop 1</label>
+                    <input type='radio' class='radioShopSelect' id='bank' name='shop' value="bank">
+                    <label for='bank'><span>BANK</span> <i class="fa fa-2x fa-university" aria-hidden="true"></i></label>
                     <div class=check></div>
                 </div>
                 <div class='radio'>
-                    <input type='radio' id='shop2' name='shop' value="shop1">
-                    <label for='shop2'>Shop 2 </label>
+                    <input type='radio' class='radioShopSelect' id='tailor' name='shop' value="tailor">
+                    <label for='tailor'><span>TAILOR</span> <i class="fa fa-2x fa-scissors" aria-hidden="true"></i></label>
                     <div class=check></div>
                 </div>
                 <div class='radio'>
-                    <input type='radio' id='shop3' name='shop' value="shop1">
-                    <label for='shop3'>Shop 3</label>
+                    <input type='radio' class='radioShopSelect' id='home' name='shop' value="home">
+                    <label for='home'><span>HOME</span><i class="fa fa-2x fa-home" aria-hidden="true"></i></label>
                     <div class=check></div>
                 </div>
                 <div class='radio'>
-                    <input type='radio' id='shop4' name='shop' value="shop1">
-                    <label for='shop4'>Shop 4</label>
+                    <input type='radio' class='radioShopSelect' id='restaurant' name='shop' value="restaurant">
+                    <label for='restaurant'><span>RESTAURANT</span> <i class="fa fa-2x fa-cutlery" aria-hidden="true"></i></label>
+                    <div class=check></div>
+                </div>
+                <div class='radio'>
+                    <input type='radio' class='radioShopSelect' id='spa' name='shop' value="spa">
+                    <label for='spa'><span>SPA</span> <i class="fa fa-2x fa-child" aria-hidden="true"></i></label>
+                    <div class=check></div>
+                </div>
+                <div class='radio'>
+                    <input type='radio' class='radioShopSelect' id='supermarket' name='shop' value="supermarket">
+                    <label for='supermarket'><span>SUPERMARKET</span> <i class="fa fa-2x fa-shopping-bag" aria-hidden="true"></i></label>
+                    <div class=check></div>
+                </div>
+                <div class='radio'>
+                    <input type='radio' class='radioShopSelect' id='travelagent' name='shop' value="travelagent">
+                    <label for='travelagent'><span>TRAVEL AGENT</span><i class="fa fa-2x fa-plane" aria-hidden="true"></i></label>
                     <div class=check></div>
                 </div>
             </div>
-            <div id='shop-store-panel' class="col-md-6">
-
+            <div id='option-selection-panel' class="col-md-12">
+                
             </div>
         </div>
     </div>

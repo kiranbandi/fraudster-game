@@ -1,9 +1,8 @@
-var userData = {},
-    feedbackData = {};
+var accountBalance = 50,
+    cashInHand = 0;
 
 toastr.options = {
-    "closeButton": true,
-    "positionClass": "toast-top-full-width"
+    "closeButton": true
 
 }
 
@@ -28,6 +27,8 @@ $(function() {
     $("#rulesModal").on('hidden.bs.modal', function() {
         timeTicker('0:00');
     });
-
+    $(".radioShopSelect").change(function(event){
+        debugger;
+    })
 
 });
